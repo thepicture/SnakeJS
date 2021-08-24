@@ -1,0 +1,48 @@
+#field {
+  border: 20px solid black;
+  transition: background-color 1000ms linear;
+  background-color: black;
+}
+.snakeable {
+  position: absolute;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  transition: background-color 500ms ease-in-out;
+}
+#fruit {
+  position: absolute;
+  background-color: lime;
+  width: 20px;
+  height: 20px;
+  left: 10px;
+  z-index: 1;
+  transition: background-color 500ms ease-in-out;
+}
+#button-start-game {
+  position: relative;
+  border: 5px solid black;
+  height: 45px;
+  width: inherit;
+  top: 25%;
+  font-size:  large;
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out, font-size 200ms ease-in-out;
+}
+#button-start-game:hover {
+  font-size: x-large;
+  font-weight: bold;
+  background-color: yellow;
+}
+#game {
+  width: 140px;
+  transform: scale(4) translate(45%, 35%);
+}
+#info {
+  position: absolute;
+  text-align: center;
+  font-size: 100%;
+  color: yellow;
+  font-weight: bold;
+  z-index: 9999;
+}
