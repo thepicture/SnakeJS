@@ -96,5 +96,6 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    text-align: -webkit-center;
+    margin-left: 50%;
+    transform: translateX(-90px);
 }
