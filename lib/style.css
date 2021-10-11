@@ -42,7 +42,8 @@
 #game {
     text-align: -webkit-center;
     transform: scale(3);
-    height: fit-content;
+    height: max-content;
+    margin-bottom: 150px;
 }
 
 #info {
