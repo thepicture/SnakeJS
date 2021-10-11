@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 
-<html>
-  <head>
-    <link rel="stylesheet" href="lib/style.css" />
-  </head>
+<html lang="EN-en">
+<head>
+    <link rel="stylesheet" href="lib/style.css"/>
+    <title>SnakeJS</title>
+</head>
 
-  <body>
+<body>
+<div class="centered-block">
     <div id="game">
-      <div id="field">
-        <div id="snake" class="snakeable"></div>
-        <div id="fruit" hidden></div>
-        <div id="info"></div>
-        <br />
-      </div>
-      <button id="button-start-game">Start</button>
+        <div id="field">
+            <div id="snake" class="snakeable"></div>
+            <div id="fruit" hidden></div>
+            <div id="info">SnakeJS</div>
+        </div>
+        <button id="button-start-game">Start</button>
     </div>
-    <script src="lib/script.js"></script>
-  </body>
+</div>
+<div class="centered-bottom">
+    <table class="game-buttons" id="buttonsTable" hidden>
+        <tbody>
+        <tr>
+            <td class="transparent-button"></td>
+            <td id="buttonUp">^</td>
+            <td class="transparent-button"></td>
+        </tr>
+        <tr>
+            <td id="buttonLeft">&lt</td>
+            <td class="transparent-button"></td>
+            <td id="buttonRight">&gt</td>
+        </tr>
+        <tr>
+            <td class="transparent-button"></td>
+            <td id="buttonDown">v</td>
+            <td class="transparent-button"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script src="lib/script.js"></script>
+</body>
 </html>
