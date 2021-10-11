@@ -39,7 +39,6 @@
   transform: scale(4) translate(45%, 35%);
 }
 #info {
-  position: absolute;
   text-align: center;
   font-size: 100%;
   color: yellow;
