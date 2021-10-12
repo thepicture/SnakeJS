@@ -39,10 +39,8 @@
 }
 
 #game {
-    text-align: -webkit-center;
     transform: scale(3);
     height: max-content;
-    margin-bottom: 150px;
     display: flex;
 }
 
@@ -59,9 +57,6 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 }
 
 .game-buttons {
