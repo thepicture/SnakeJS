@@ -9,34 +9,34 @@
 <body>
 <div class="centered-block">
     <div id="game">
-        <div id="field">
-            <div id="snake" class="snakeable"></div>
-            <div id="fruit" hidden></div>
-            <div id="info">SnakeJS</div>
+        <div>
+            <div id="field">
+                <div id="snake" class="snakeable"></div>
+                <div id="fruit" hidden></div>
+                <div id="info">SnakeJS</div>
+            </div>
+            <button id="button-start-game">Start</button>
         </div>
-        <button id="button-start-game">Start</button>
+        <table class="game-buttons" id="buttonsTable">
+            <tbody>
+            <tr>
+                <td class="transparent-button"></td>
+                <td id="buttonUp">^</td>
+                <td class="transparent-button"></td>
+            </tr>
+            <tr>
+                <td id="buttonLeft">&lt</td>
+                <td class="transparent-button"></td>
+                <td id="buttonRight">&gt</td>
+            </tr>
+            <tr>
+                <td class="transparent-button"></td>
+                <td id="buttonDown">v</td>
+                <td class="transparent-button"></td>
+            </tr>
+            </tbody>
+        </table>
     </div>
-</div>
-<div class="centered-bottom">
-    <table class="game-buttons" id="buttonsTable" hidden>
-        <tbody>
-        <tr>
-            <td class="transparent-button"></td>
-            <td id="buttonUp">^</td>
-            <td class="transparent-button"></td>
-        </tr>
-        <tr>
-            <td id="buttonLeft">&lt</td>
-            <td class="transparent-button"></td>
-            <td id="buttonRight">&gt</td>
-        </tr>
-        <tr>
-            <td class="transparent-button"></td>
-            <td id="buttonDown">v</td>
-            <td class="transparent-button"></td>
-        </tr>
-        </tbody>
-    </table>
 </div>
 <script src="lib/script.js"></script>
 </body>

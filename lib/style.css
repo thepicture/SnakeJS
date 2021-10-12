@@ -27,7 +27,6 @@
     border: 5px solid black;
     height: 45px;
     width: 140px;
-    top: 25%;
     font-size: large;
     cursor: pointer;
     transition: background-color 200ms ease-in-out, font-size 200ms ease-in-out;
@@ -44,6 +43,7 @@
     transform: scale(3);
     height: max-content;
     margin-bottom: 150px;
+    display: flex;
 }
 
 #info {
@@ -65,17 +65,16 @@
 }
 
 .game-buttons {
-    width: 180px;
-    transform: scale(2);
+    width: 120px;
     margin-bottom: 100px;
 }
 
 .game-buttons tbody tr {
-    height: 60px;
+    height: 40px;
 }
 
 .game-buttons tbody td {
-    width: 60px;
+    width: 40px;
     background-color: yellow;
     text-align: center;
     border: 5px solid black;
@@ -90,12 +89,4 @@
 
 .transparent-button {
     opacity: .0;
-}
-
-.centered-bottom {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin-left: 50%;
-    transform: translateX(-90px);
 }
